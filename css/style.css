@@ -888,8 +888,8 @@ ul.footer-grid-list li span{
 .banner1 h2 span{
 	color: #6BC676;
 }
-/*-- //banner1 --*/
-/*-- banner2 --*/
+/*-- //banner --*/
+/*-- banner --*/
 .banner2{
 	background: url(../images/banner2.jpg) no-repeat 0px 0px;
     background-size: cover;
@@ -913,7 +913,7 @@ ul.footer-grid-list li span{
 .banner2 h2 span{
 	color: #6BC676;
 }
-/*-- //banner2 --*/
+/*-- //banner --*/
 /*-- about --*/
 .about-grids{
 	margin:3em 0 0;
@@ -1928,7 +1928,11 @@ p.fugiat{
 	}
 	.banner1 {
 		min-height: 200px;
-		padding: 5em 0 0;
+		padding: 5em 0 0;	
+	}
+	.banner2 {
+		min-height: 200px;
+		padding: 5em 0 0;			
 	}
 	.textbox h4 {
 		font-size: .8em;
@@ -2108,6 +2112,10 @@ p.fugiat{
 		font-size: 1.5em;
 	}
 	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+	}
+	.banner2 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 	}
@@ -2423,6 +2431,10 @@ p.fugiat{
 	}
 	.banner1 h2 {
 		font-size: 1.2em;
+	}
+	.banner1 {
+		min-height: 100px;
+		padding: 2.5em 0 0;
 	}
 	.banner1 {
 		min-height: 100px;
