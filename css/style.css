@@ -939,6 +939,31 @@ ul.footer-grid-list li span{
 	color: #6BC676;
 }
 /*-- //banner --*/
+/*-- banner --*/
+.banner4{
+	background: url(../images/bannerP.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
+    padding: 6em 0 0;
+    text-align: center;
+}
+.banner4 h2{
+	font-size:2em;
+	color:#fff;
+	margin:0 0 2em;
+}
+.banner4 h2 a{
+	color:#fff;
+	text-decoration:none;
+}
+.banner4 h2 span{
+	color: #6BC676;
+}
+/*-- //banner --*/
 /*-- about --*/
 .about-grids{
 	margin:3em 0 0;
