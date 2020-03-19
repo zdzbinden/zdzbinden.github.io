@@ -872,7 +872,7 @@ ul.footer-grid-list li span{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 240px;
+    min-height: 300px;
     padding: 6em 0 0;
     text-align: center;
 }
@@ -897,7 +897,7 @@ ul.footer-grid-list li span{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 240px;
+    min-height: 300px;
     padding: 6em 0 0;
     text-align: center;
 }
@@ -911,6 +911,31 @@ ul.footer-grid-list li span{
 	text-decoration:none;
 }
 .banner2 h2 span{
+	color: #6BC676;
+}
+/*-- //banner --*/
+/*-- banner --*/
+.banner3{
+	background: url(../images/banner3.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
+    padding: 6em 0 0;
+    text-align: center;
+}
+.banner3 h2{
+	font-size:2em;
+	color:#fff;
+	margin:0 0 2em;
+}
+.banner3 h2 a{
+	color:#fff;
+	text-decoration:none;
+}
+.banner3 h2 span{
 	color: #6BC676;
 }
 /*-- //banner --*/
@@ -1928,11 +1953,15 @@ p.fugiat{
 	}
 	.banner1 {
 		min-height: 200px;
-		padding: 5em 0 0;	
+		padding: 5em 0 0;				
 	}
 	.banner2 {
 		min-height: 200px;
-		padding: 5em 0 0;			
+		padding: 5em 0 0;				
+	}
+	.banner3 {
+		min-height: 200px;
+		padding: 5em 0 0;				
 	}
 	.textbox h4 {
 		font-size: .8em;
@@ -2116,6 +2145,10 @@ p.fugiat{
 		padding: 3.5em 0 0;
 	}
 	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+	}
+	.banner3 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 	}
@@ -2436,7 +2469,11 @@ p.fugiat{
 		min-height: 100px;
 		padding: 2.5em 0 0;
 	}
-	.banner1 {
+	.banner2 {
+		min-height: 100px;
+		padding: 2.5em 0 0;
+	}
+	.banner3 {
 		min-height: 100px;
 		padding: 2.5em 0 0;
 	}
