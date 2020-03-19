@@ -941,7 +941,7 @@ ul.footer-grid-list li span{
 /*-- //banner --*/
 /*-- banner --*/
 .banner4{
-	background: url(../images/bannerP.jpg) no-repeat 0px 0px;
+	background: url(../images/bannerPub.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1988,6 +1988,10 @@ p.fugiat{
 		min-height: 200px;
 		padding: 5em 0 0;				
 	}
+	.banner4 {
+		min-height: 200px;
+		padding: 5em 0 0;				
+	}
 	.textbox h4 {
 		font-size: .8em;
 	}
@@ -2174,6 +2178,10 @@ p.fugiat{
 		padding: 3.5em 0 0;
 	}
 	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+	}
+	.banner4 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 	}
@@ -2499,6 +2507,10 @@ p.fugiat{
 		padding: 2.5em 0 0;
 	}
 	.banner3 {
+		min-height: 100px;
+		padding: 2.5em 0 0;
+	}
+	.banner4 {
 		min-height: 100px;
 		padding: 2.5em 0 0;
 	}
