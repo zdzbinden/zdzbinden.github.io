@@ -1029,6 +1029,12 @@ ul.footer-grid-list li span{
     border: none;
 }
 /*-- //about --*/
+/*-- vitae--*/
+.vitae{
+	margin:25px 300px 25px 100px;
+	overflow: hidden;
+}
+/*-- //vitae --*/
 /*-- team --*/
 .team{
 	background:#E9E9E9;
