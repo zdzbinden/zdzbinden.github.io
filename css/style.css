@@ -1031,7 +1031,8 @@ ul.footer-grid-list li span{
 /*-- //about --*/
 /*-- vitae--*/
 .vitae{
-	margin:5% 10% 0% 0%;
+	margin:auto;
+	overflow:hidden;
 }
 /*-- //vitae --*/
 /*-- team --*/
