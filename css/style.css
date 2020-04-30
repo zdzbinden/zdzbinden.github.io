@@ -970,6 +970,7 @@ ul.footer-grid-list li span{
 /*-- about --*/
 .about-grids{
 	margin:3em 0 0;
+	overflow: hidden;
 }
 .pa_italic span {
     display: none;
