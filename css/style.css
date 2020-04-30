@@ -2403,6 +2403,10 @@ p.fugiat{
 	.mail-grid-left input[type="submit"] {
 		width: 100%;
 	}
+	.vitae{
+		margin:2em auto;
+		overflow:hidden;
+	}
 }
 @media (max-width:414px){
 	.banner-info h3 {
