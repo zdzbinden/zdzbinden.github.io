@@ -869,7 +869,7 @@ ul.footer-grid-list li span{
 /*-- //to-top --*/
 /*-- banner --*/
 .banner1{
-	background: url(../images/banner_home.jpg) no-repeat 0px 0px;
+	background: url(../images/home/banner_home.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -894,7 +894,7 @@ ul.footer-grid-list li span{
 /*-- //banner --*/
 /*-- banner --*/
 .banner2{
-	background: url(../images/banner_research.jpg) no-repeat 0px 0px;
+	background: url(../images/research/banner_research.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -919,7 +919,7 @@ ul.footer-grid-list li span{
 /*-- //banner --*/
 /*-- banner --*/
 .banner3{
-	background: url(../images/banner_cv.jpg) no-repeat 0px 0px;
+	background: url(../images/CV/banner_cv.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -944,7 +944,7 @@ ul.footer-grid-list li span{
 /*-- //banner --*/
 /*-- banner --*/
 .banner4{
-	background: url(../images/banner_publications.jpg) no-repeat 0px 0px;
+	background: url(../images/publications/banner_publications.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
