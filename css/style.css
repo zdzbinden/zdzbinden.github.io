@@ -13,7 +13,7 @@ html, body{
 }
 p{
 	margin:0;
-	font-size:14px;
+	font-size:16px;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Oswald', sans-serif;
@@ -246,7 +246,7 @@ body a:hover{
 .more a{
 	padding:10px 30px;
 	color:#fff;
-	font-size:14px;
+	font-size:16px;
 	text-decoration:none;
 }
 .more a:hover{
@@ -364,7 +364,7 @@ p.qui{
     margin:1em 0 0 0;
 }
 .services-grids-left-grid h5{
-	font-size:14px;
+	font-size:16px;
 	color:#999;
 	margin:0 0 0.5em;
 }
@@ -764,7 +764,7 @@ input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts
 	outline:none;
 	border:1px solid #939393;
 	background:#000;
-	font-size:14px;
+	font-size:16px;
 	color:#fff;
 	width:100%;
 	padding:10px;
@@ -784,7 +784,7 @@ input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts
 	color:#6BC676;
 }
 ul.footer-grid-list li{
-	font-size: 14px;
+	font-size: 16px;
     color: #999;
     line-height: 1.8em;
     padding-left: 2.5em;
@@ -820,7 +820,7 @@ ul.footer-grid-list li span{
 }
 .footer-grids1-left ul li a{
 	color:#999;
-	font-size:14px;
+	font-size:16px;
 	text-decoration:none;
 }
 .footer-grids1-left ul li.active a,.footer-grids1-left ul li a:hover{
@@ -987,7 +987,7 @@ ul.footer-grid-list li span{
     display: inline-block;
 }
 .panel_text {
-    font-size: 14px;
+    font-size: 16px;
     color: #999;
     line-height: 1.8em;
 }
@@ -1100,7 +1100,7 @@ ul.footer-grid-list li span{
 	padding:2em 1em;
 }
 .pricing-plans-grid1 ul li{
-	font-size:14px;
+	font-size:16px;
 	color:#999;
 	line-height:1.8em;
 	margin-bottom:1em;
@@ -1125,19 +1125,19 @@ ul.footer-grid-list li span{
 /*--Typography--*/
 .well {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
 }
 .list-group-item {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
 }
 li.list-group-item1 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 .typo p {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 .show-grid [class^=col-] {
@@ -1289,13 +1289,13 @@ h2.typoh2{
 		margin-bottom: 10px;
 	}
 	ol.breadcrumb li,.grid_3 p,ul.list-group li,li.list-group-item1 {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.breadcrumb {
 		margin-bottom: 10px;
 	}
 	.well {
-		font-size: 14px;
+		font-size: 16px;
 		margin-bottom: 10px;
 	}
 	h2.typoh2 {
@@ -1316,7 +1316,7 @@ h2.typoh2{
 		font-size: 53%;
 	}
 	.alert,p {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.pagination {
 		margin: 20px 0 0px;
@@ -1340,7 +1340,7 @@ h2.typoh2{
 		margin-bottom: 10px;
 	}
 	ul.pagination li a {
-		font-size: 14px;
+		font-size: 16px;
 		padding: 5px 11px;
 	}
 	.list-group {
@@ -1350,7 +1350,7 @@ h2.typoh2{
 		padding: 10px;
 	}
 	.nav > li > a {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	table.table.table-striped,.table-bordered,.bs-docs-example {
 		display: none;
@@ -1428,7 +1428,7 @@ h2.typoh2{
 	outline: none;
     border: 1px solid #E4E4E4;
     background: #f5f5f5;
-    font-size: 14px;
+    font-size: 16px;
     color: #212121;
     padding: 10px;
     width: 100%;
@@ -1485,7 +1485,7 @@ h2.typoh2{
 .mail-grid-right1 ul.phone-mail li{
 	list-style-type:none;
 	margin-bottom:1em;
-	font-size:14px;
+	font-size:16px;
 	color:#FFFFFF;
 }
 .mail-grid-right1 ul.phone-mail li a{
@@ -1550,7 +1550,7 @@ p.fugiat{
 	border-bottom:1px solid #999;
 }
 .single-grid-left-grid1 ul li{
-	font-size: 14px;
+	font-size: 16px;
     color: #999;
     margin-left: 1em;
 	margin-right:2em;
@@ -1628,7 +1628,7 @@ p.fugiat{
 	text-transform:uppercase;
 }
 .author-grid-right h4 span{
-	font-size: 14px;
+	font-size: 16px;
     color: #6BC676;
     font-family: 'Open Sans', sans-serif;
     display: block;
@@ -1647,7 +1647,7 @@ p.fugiat{
 	outline:none;
 	padding:10px;
 	background:#f5f5f5;
-	font-size:14px;
+	font-size:16px;
 	color:#212121;
 	border:1px solid #EAEAEA;
 	width:100%;
@@ -1681,7 +1681,7 @@ p.fugiat{
     color: #999;
     padding: 10px;
 	margin:0 0 1em;
-    font-size: 14px;
+    font-size: 16px;
 }
 .search1 input[type="submit"] {
 	background:#6BC676;
@@ -1707,7 +1707,7 @@ p.fugiat{
     padding-left: 3em;
     margin: 1.5em 0;
     color: #999;
-    font-size: 14px;
+    font-size: 16px;
 }
 .categories ul li a {
 	color: #999;
@@ -1766,7 +1766,7 @@ p.fugiat{
 .related-post-right ul li{
 	display: inline-block;
     margin: 0 1em 0 0.5em;
-    font-size: 14px;
+    font-size: 16px;
     color: #212121;
 }
 .related-post-right ul li span{
@@ -2502,7 +2502,7 @@ p.fugiat{
 	}
 	.mail-grid-left input[type="submit"] {
 		padding:10px 0;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.footer {
 		padding: 2em 0;
@@ -2514,7 +2514,7 @@ p.fugiat{
 		overflow:hidden;
 	}
 	p {
-		font-size: 13px;
+		font-size: 16px;
 	}
 	.banner-info h3 {
 		font-size: 1em;
@@ -2633,7 +2633,7 @@ p.fugiat{
 		width: 100%;
 	}
 	.leave-reply input[type="submit"] {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.gallery-grid .textbox {
 		top: 30px;
@@ -2688,7 +2688,7 @@ p.fugiat{
 		font-size: 13px;
 	}
 	.footer-grid input[type="submit"] {
-		font-size: 14px;
+		font-size: 16px;
 		padding: 10px 0;
 	}
 	.footer-grid {
@@ -2707,7 +2707,7 @@ p.fugiat{
 		font-size: .9em;
 	}
 	.search1 input[type="submit"] {
-		font-size: 14px;
+		font-size: 16px;
 		width: 100%;
 		padding: 10px 0;
 	}
