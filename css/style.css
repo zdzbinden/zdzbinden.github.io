@@ -462,7 +462,7 @@ p.qui{
 /*-- //services --*/
 /*-- services-bottom --*/
 .services-bottom{
-	background:url(../images/1.jpg) no-repeat 0px 0px;
+	background:url(../images/img-sp.png) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -558,7 +558,7 @@ p.qui{
     position: absolute;
     bottom:-95%;
     left: 27%;
-    background: url(../images/1.png) no-repeat 0px 0px #fff;
+    background: url(../images/img-sp.png) no-repeat 0px 0px #fff;
     display: block;
     height: 38px;
     width: 27px;
