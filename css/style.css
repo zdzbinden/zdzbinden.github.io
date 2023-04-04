@@ -2031,6 +2031,10 @@ p.fugiat{
 		min-height: 200px;
 		padding: 5em 0 0;				
 	}
+	.banner5 {
+		min-height: 200px;
+		padding: 5em 0 0;				
+	}
 	.textbox h4 {
 		font-size: .8em;
 	}
@@ -2225,6 +2229,10 @@ p.fugiat{
 		padding: 3.5em 0 0;
 	}
 	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+	}
+	.banner5 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 	}
@@ -2570,6 +2578,10 @@ p.fugiat{
 		padding: 2.5em 0 0;
 	}
 	.banner4 {
+		min-height: 100px;
+		padding: 2.5em 0 0;
+	}
+	.banner5 {
 		min-height: 100px;
 		padding: 2.5em 0 0;
 	}
