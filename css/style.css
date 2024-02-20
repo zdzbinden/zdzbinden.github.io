@@ -2218,7 +2218,7 @@ p.fugiat{
 	}
 	.navbar-brand {
 		margin: .5em 0;
-		width: 100vw;
+		width: 100%;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #212121;
