@@ -12,6 +12,7 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	min-width: 100vw;
 	max-width: 100vw;
+	overflow-x: hidden;
 }
 p{
 	margin:0;
@@ -878,6 +879,7 @@ ul.footer-grid-list li span{
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 300px;
+    max-width: 100vw;
     padding: 6em 0 0;
     text-align: center;
 }
@@ -903,6 +905,7 @@ ul.footer-grid-list li span{
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 300px;
+    max-width: 100vw;
     padding: 6em 0 0;
     text-align: center;
 }
@@ -928,6 +931,7 @@ ul.footer-grid-list li span{
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 300px;
+    max-width: 100vw;
     padding: 6em 0 0;
     text-align: center;
 }
@@ -953,6 +957,7 @@ ul.footer-grid-list li span{
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 300px;
+    max-width: 100vw;
     padding: 6em 0 0;
     text-align: center;
 }
@@ -978,6 +983,7 @@ ul.footer-grid-list li span{
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 300px;
+    max-width: 100vw;
     padding: 6em 0 0;
     text-align: center;
 }
@@ -2066,7 +2072,35 @@ p.fugiat{
 @media (max-width:800px){
 	.banner-info {
 		margin: 5em auto 0;
-		width: 80%;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.more a {
 		padding: 8px 20px;
@@ -2109,6 +2143,35 @@ p.fugiat{
 	}
 	.banner-info p {
 		margin: 1em auto 2em;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.services, .testimonials, .about, .team, .pricing-plans, .typo, .gallery, .mail, .single {
 		padding: 3em 0;
@@ -2121,8 +2184,41 @@ p.fugiat{
 	}
 }
 @media (max-width:767px){
+	.banner-info {
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
 	.navbar-brand {
 		margin: .5em 0;
+		width: 100vw;
 	}
 	.navbar-default .navbar-toggle {
 		border-color: #212121;
@@ -2170,12 +2266,69 @@ p.fugiat{
 @media (max-width:667px){
 	.banner-info {
 		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 }
 @media (max-width:640px){
 	.banner-info {
-		width: 95%;
-		margin: 3em auto 0;
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.services-grids-left-grid1-pos, .services-grids-left-grid3-pos {
 		left: 111%;
@@ -2214,29 +2367,6 @@ p.fugiat{
 	}
 	.footer-grids1-right p {
 		margin: 1em 0 0;
-	}
-	.banner1 h2 {
-		font-size: 1.5em;
-	}
-	.banner1 {
-		min-height: 150px;
-		padding: 3.5em 0 0;
-	}
-	.banner2 {
-		min-height: 150px;
-		padding: 3.5em 0 0;
-	}
-	.banner3 {
-		min-height: 150px;
-		padding: 3.5em 0 0;
-	}
-	.banner4 {
-		min-height: 150px;
-		padding: 3.5em 0 0;
-	}
-	.banner5 {
-		min-height: 150px;
-		padding: 3.5em 0 0;
 	}
 	.popular-posts h3, .author h3, .leave-reply h3 {
 		font-size: 1.5em;
@@ -2286,8 +2416,41 @@ p.fugiat{
 	}
 }
 @media (max-width:600px){
+	.banner-info {
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
 	.banner-info h3 {
 		font-size: 1.4em;
+		width: 100vw;
 	}
 	.banner-info {
 		margin:3.5em auto 0;
@@ -2310,7 +2473,36 @@ p.fugiat{
 		overflow:hidden;
 	}
 	.banner-info {
-		margin:2em auto 0;
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.services h3, .testimonials h3, .about h3, .team h3, .pricing-plans h3, h3.title, .gallery h3, .mail h3 {
 		font-size: 1.7em;
@@ -2463,9 +2655,39 @@ p.fugiat{
 	.banner-info h3 {
 		font-size: 1.1em;
 		letter-spacing: 1px;
+		width: 100vw;
 	}
 	.banner-info {
-		margin: 1.5em auto 0;
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.services h3, .testimonials h3, .about h3, .team h3, .pricing-plans h3, h3.title, .gallery h3, .mail h3 {
 		font-size: 1.5em;
@@ -2556,7 +2778,36 @@ p.fugiat{
 		letter-spacing: 0;
 	}
 	.banner-info {
-		margin: 1em auto 0;
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.nav-tabs {
 		width: 100%;
@@ -2566,26 +2817,6 @@ p.fugiat{
 	}
 	.banner1 h2 {
 		font-size: 1.2em;
-	}
-	.banner1 {
-		min-height: 100px;
-		padding: 2.5em 0 0;
-	}
-	.banner2 {
-		min-height: 100px;
-		padding: 2.5em 0 0;
-	}
-	.banner3 {
-		min-height: 100px;
-		padding: 2.5em 0 0;
-	}
-	.banner4 {
-		min-height: 100px;
-		padding: 2.5em 0 0;
-	}
-	.banner5 {
-		min-height: 100px;
-		padding: 2.5em 0 0;
 	}
 	.author-grid-left {
 		width: 30%;
@@ -2616,6 +2847,38 @@ p.fugiat{
 	}
 	.banner-info p {
 		font-size: 12px;
+	}
+		.banner-info {
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.more a {
 		font-size: 13px;
@@ -2700,7 +2963,36 @@ p.fugiat{
 		margin:0em auto .5em;
 	}
 	.banner-info {
-		margin:0.5em auto 0;
+		margin: 2.5em auto 0;
+		width: 100vw;
+	}
+		.banner1 h2 {
+		font-size: 1.5em;
+	}
+	.banner1 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner2 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner3 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner4 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
 	}
 	.services-grids-left {
 		padding-left: 0;
