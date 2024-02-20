@@ -376,7 +376,7 @@ p.qui{
 .services-grids-left-grid1-pos{
 	position: absolute;
     top:0%;
-    left:110.5%;
+    left:100%;
 }
 .services-grids-left-grid2-pos{
 	position: absolute;
@@ -386,7 +386,7 @@ p.qui{
 .services-grids-left-grid3-pos{
 	position: absolute;
     top:58%;
-    left:110%;
+    left:100%;
 }
 .services-grids-left-grid1-pos span{
 	background: url(../images/img-sp.png) no-repeat 0px 0px;
@@ -2337,7 +2337,7 @@ p.fugiat{
 		top: 20%;
 	}
 	.services-grids-left-grid2-pos {
-		left: 111.5%;
+		left: 100%;
 	}
 	.services-grids-right-grids {
 		padding: 0em 5em 3em 0;
@@ -2482,7 +2482,7 @@ p.fugiat{
 		left: 115%;
 	}
 	.services-grids-left-grid2-pos {
-		left: 114.5%;
+		left: 100%;
 	}
 	.services-bottom-left {
 		width: 50%;
@@ -2625,7 +2625,7 @@ p.fugiat{
 	}
 	.services-grids-left-grid1-pos span {
 		background: url(../images/img-sp.png) no-repeat 0px 0px;
-		background-size: 515%;
+		background-size: 100%;
 		width: 80px;
 		height: 80px;
 	}
@@ -2636,19 +2636,19 @@ p.fugiat{
 		background: url(../images/img-sp.png) no-repeat -195px 0px;
 		width: 80px;
 		height: 80px;
-		background-size: 515%;
+		background-size: 100%;
 	}
 	.services-grids-left-grid1-pos, .services-grids-left-grid3-pos {
-		left: 103%;
+		left: 100%;
 	}
 	.services-grids-left-grid2-pos span {
 		background: url(../images/img-sp.png) no-repeat -90px 0px;
-		background-size: 515%;
+		background-size: 100%;
 		width: 80px;
 		height: 80px;
 	}
 	.services-grids-left-grid2-pos {
-		left:103.5%;
+		left:100%;
 	}
 	.services-grids-right-grids {
 		padding: 0em 3em 3em 0;
@@ -2789,6 +2789,6 @@ p.fugiat{
 		margin: 5em 0 .5em !important;
 	}
 	.services-grids-left-grid1-pos, .services-grids-left-grid3-pos {
-		left: 105%;
+		left: 100%;
 	}
 }
