@@ -1812,6 +1812,10 @@ p.fugiat{
 	.banner-info {
 		margin: 13em auto 0;
 	}
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 }
 @media (max-width: 1366px){
 	.banner-info {
@@ -1829,9 +1833,9 @@ p.fugiat{
 }
 @media (max-width: 1080px){
 	.vitae{
-		margin:2em auto;
-		overflow:hidden;
-	}
+	margin:2em auto;
+	width: 100vw;
+}
 	.navbar-nav {
 		margin: 0 0 0 3em;
 	}
@@ -1899,6 +1903,10 @@ p.fugiat{
 	}
 }
 @media (max-width:991px){
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 	.phone {
 		padding-left: 1em;
 	}
@@ -2070,6 +2078,10 @@ p.fugiat{
 	}
 }
 @media (max-width:800px){
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info {
 		margin: 5em auto 0;
 		width: 100vw;
@@ -2138,9 +2150,9 @@ p.fugiat{
 }
 @media (max-width:768px){
 	.vitae{
-		margin:2em auto;
-		overflow:hidden;
-	}
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info p {
 		margin: 1em auto 2em;
 		width: 100vw;
@@ -2184,6 +2196,10 @@ p.fugiat{
 	}
 }
 @media (max-width:767px){
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info {
 		margin: 2.5em auto 0;
 		width: 100vw;
@@ -2263,6 +2279,10 @@ p.fugiat{
 	}
 }
 @media (max-width:667px){
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info {
 		margin: 2.5em auto 0;
 		width: 100vw;
@@ -2297,6 +2317,10 @@ p.fugiat{
 	}
 }
 @media (max-width:640px){
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info {
 		margin: 2.5em auto 0;
 		width: 100vw;
@@ -2415,6 +2439,10 @@ p.fugiat{
 	}
 }
 @media (max-width:600px){
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info {
 		margin: 2.5em auto 0;
 		width: 100vw;
@@ -2467,6 +2495,10 @@ p.fugiat{
 	}
 }
 @media (max-width:480px){
+	.vitae{
+	margin:2em auto;
+	width: 100vw;
+}
 	.vitae{
 		margin:2em auto;
 		overflow:hidden;
@@ -2648,9 +2680,9 @@ p.fugiat{
 }
 @media (max-width:414px){
 	.vitae{
-		margin:2em auto;
-		overflow:hidden;
-	}
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info h3 {
 		font-size: 1.1em;
 		letter-spacing: 1px;
@@ -2766,9 +2798,9 @@ p.fugiat{
 }
 @media (max-width: 384px){
 	.vitae{
-		margin:2em auto;
-		overflow:hidden;
-	}
+	margin:2em auto;
+	width: 100vw;
+}
 	p {
 		font-size: 16px;
 	}
@@ -2841,9 +2873,9 @@ p.fugiat{
 }
 @media (max-width:375px){
 	.vitae{
-		margin:2em auto;
-		overflow:hidden;
-	}
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info p {
 		font-size: 12px;
 	}
@@ -2951,9 +2983,9 @@ p.fugiat{
 }
 @media (max-width: 320px){
 	.vitae{
-		margin:2em auto;
-		overflow:hidden;
-	}
+	margin:2em auto;
+	width: 100vw;
+}
 	.banner-info h3 {
 		font-size: 1em;
 		margin-bottom:0;
