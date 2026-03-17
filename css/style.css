@@ -80,7 +80,7 @@ body a:hover{
     color: #212121;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #999;
+    color: #767676;
 }
 .navbar-nav > li > a {
     font-size: 14px;
@@ -91,11 +91,11 @@ body a:hover{
     margin: 0 0 0 7em;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #6BC676;
+    color: #3a7a42;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #6BC676;
+    color: #3a7a42;
     background-color: transparent;
 }
 /*-- nav-hover-effect --*/
@@ -138,18 +138,18 @@ body a:hover{
 	height: 6em;
     padding: 3em 0 1em;
 	text-align: center;
-	color: #b5b5b5;
+	color: #767676;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
 
 .menu--francisco .menu__link:hover,
 .menu--francisco .menu__link:focus {
-	color: #929292;
+	color: #555555;
 }
 
 .menu--francisco .menu__item--current .menu__link{
-	color: #6BC676;
+	color: #3a7a42;
 }
 
 .menu--francisco .menu__link::before{
@@ -364,7 +364,7 @@ body a:hover{
 }
 p.qui{
 	text-align:center;
-	color:#999;
+	color:#767676;
 	line-height:1.8em;
 	margin:1em 0 0 !important;
 	font-weight: 500 !important;
