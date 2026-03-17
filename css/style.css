@@ -4,6 +4,28 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/* Accessibility: skip navigation link */
+.skip-to-content {
+    position: absolute;
+    left: -999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip-to-content:focus {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    background: #6BC676;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    z-index: 9999;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
 iframe {
     min-width: 100vw;
     max-width: 100vw;
@@ -311,6 +333,7 @@ body a:hover{
 .services,.testimonials,.about,.team,.pricing-plans,.typo,.gallery,.mail,.single{
 	padding:5em 0;
 }
+.services h2,.testimonials h2,.about h2,.team h2,.pricing-plans h2,.gallery h2,.mail h2,
 .services h3,.testimonials h3,.about h3,.team h3,.pricing-plans h3,h3.title,.gallery h3,.mail h3{
 	font-size:2.5em;
 	color:#212121;
@@ -319,6 +342,7 @@ body a:hover{
 	padding-bottom:.5em;
 	letter-spacing:3px;
 }
+.services h2:after,.testimonials h2:after,.about h2:after,.gallery h2:after,.mail h2:after,.team h2:after,.pricing-plans h2:after,
 .services h3:after,.testimonials h3:after,.about h3:after,.gallery h3:after,.mail h3:after,.team h3:after,.pricing-plans h3:after,h3.title:after{
 	content: '';
     background: #999;
@@ -328,6 +352,7 @@ body a:hover{
     bottom: 0%;
     left: 35%;
 }
+.services h2:before,.testimonials h2:before,.about h2:before,.gallery h2:before,.mail h2:before,.team h2:before,.pricing-plans h2:before,
 .services h3:before,.testimonials h3:before,.about h3:before,.gallery h3:before,.mail h3:before,.team h3:before,.pricing-plans h3:before,h3.title:before{
 	content: '';
     background: #6BC676;
@@ -631,14 +656,14 @@ div#myTabContent {
 	padding:4em 0;
 	background:#212121;
 }
-.footer-grid h3{
+.footer-grid h2,.footer-grid h3{
 	font-size:1.5em;
 	color:#fff;
 	padding-bottom:.7em;
 	position:relative;
 	margin-bottom:1em;
 }
-.footer-grid h3:after{
+.footer-grid h2:after,.footer-grid h3:after{
 	content:'';
 	background:#fff;
 	width:20%;
@@ -758,7 +783,7 @@ a.p:hover i{
     display: block;
 }
 /*-- //social-icons --*/
-input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts-grid1 h4 a,.single-grid-left-grid1 ul li a,.mail-grid-right1 ul.phone-mail li a,.pricing-plans-grid1 ul li,.pricing-plans-grid1 h5,.pricing-plans-grid1 h4,ul.footer-grid-list li a,.pricing-plans-grid1,.footer-grids1-left ul li a,.footer-grids1-right p a,.about-grids-left h4 a{
+input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts-grid1 h4 a,.single-grid-left-grid1 ul li a,.mail-grid-right1 ul.phone-mail li a,.pricing-plans-grid1 ul li,.pricing-plans-grid1 h5,.pricing-plans-grid1 h4,ul.footer-grid-list li a,.pricing-plans-grid1,.footer-grids1-left ul li a,.footer-grids1-right p a,.about-grids-left h3 a,.about-grids-left h4 a{
 	-webkit-transition: 0.5s ease-in;
     -moz-transition: 0.5s ease-in;
     -o-transition: 0.5s ease-in;
@@ -1002,6 +1027,51 @@ ul.footer-grid-list li span{
 	color: #6BC676;
 }
 /*-- //banner --*/
+/*-- banner --*/
+.banner6{
+	/* TODO: replace background-color with a background-image url when a photo is available */
+	background-color: #2e4a35;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
+    max-width: 100vw;
+    padding: 6em 0 0;
+    text-align: center;
+}
+.banner6 h2{
+	font-size:2em;
+	color:#fff;
+	margin:0 0 2em;
+}
+.banner6 h2 a{
+	color:#fff;
+	text-decoration:none;
+}
+.banner6 h2 span{
+	color: #6BC676;
+}
+/*-- //banner --*/
+/*-- image placeholder --*/
+.img-placeholder {
+    background-color: #dde5dd;
+    border: 2px dashed #aabdaa;
+    min-height: 260px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: #7a9a7a;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 1em;
+}
+/*-- //image placeholder --*/
 /*-- about --*/
 .about-grids{
 	margin:3em 0 0;
@@ -1026,7 +1096,7 @@ ul.footer-grid-list li span{
     color: #999;
     line-height: 1.8em;
 }
-.about-grids-left h4 {
+.about-grids-left h3,.about-grids-left h4 {
     font-size: 1.1em;
     color: #6BC676;
     margin: 0;
@@ -1034,10 +1104,10 @@ ul.footer-grid-list li span{
     text-transform: capitalize;
     letter-spacing: 1px;
 }
-.about-grids-left h4 a{
+.about-grids-left h3 a,.about-grids-left h4 a{
 	text-decoration:none;
 }
-.about-grids-left h4 a:hover{
+.about-grids-left h3 a:hover,.about-grids-left h4 a:hover{
 	color:#212121;
 }
 .panel-heading-sub {
@@ -1936,6 +2006,7 @@ p.fugiat{
 	.banner-info h3 {
 		font-size: 1.6em;
 	}
+	.services h2, .testimonials h2, .about h2, .team h2, .pricing-plans h2, .gallery h2, .mail h2,
 	.services h3, .testimonials h3, .about h3, .team h3, .pricing-plans h3, h3.title, .gallery h3, .mail h3 {
 		font-size: 2em;
 	}
@@ -2052,7 +2123,11 @@ p.fugiat{
 	}
 	.banner5 {
 		min-height: 200px;
-		padding: 5em 0 0;				
+		padding: 5em 0 0;
+	}
+	.banner6 {
+		min-height: 200px;
+		padding: 5em 0 0;
 	}
 	.textbox h4 {
 		font-size: .8em;
@@ -2117,6 +2192,11 @@ p.fugiat{
 		padding: 3.5em 0 0;
 		width: 100vw;
 	}
+	.banner6 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
 	.more a {
 		padding: 8px 20px;
 	}
@@ -2142,10 +2222,12 @@ p.fugiat{
 		min-height: 290px;
 		padding: 2.5em 0 0;
 	}
+	.services h2:after, .testimonials h2:after, .about h2:after, .gallery h2:after, .mail h2:after, .team h2:after, .pricing-plans h2:after,
 	.services h3:after, .testimonials h3:after, .about h3:after, .gallery h3:after, .mail h3:after, .team h3:after, .pricing-plans h3:after, h3.title:after {
 		width: 40%;
 		left: 30%;
 	}
+	.services h2:before, .testimonials h2:before, .about h2:before, .gallery h2:before, .mail h2:before, .team h2:before, .pricing-plans h2:before,
 	.services h3:before, .testimonials h3:before, .about h3:before, .gallery h3:before, .mail h3:before, .team h3:before, .pricing-plans h3:before, h3.title:before {
 		width: 20%;
 		right: 40%;
@@ -2184,6 +2266,11 @@ p.fugiat{
 		width: 100vw;
 	}
 	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner6 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 		width: 100vw;
@@ -2231,6 +2318,11 @@ p.fugiat{
 		width: 100vw;
 	}
 	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner6 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 		width: 100vw;
@@ -2318,6 +2410,11 @@ p.fugiat{
 		padding: 3.5em 0 0;
 		width: 100vw;
 	}
+	.banner6 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
 }
 @media (max-width:640px){
 	.vitae{
@@ -2356,6 +2453,11 @@ p.fugiat{
 		padding: 3.5em 0 0;
 		width: 100vw;
 	}
+	.banner6 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
 	.services-grids-left-grid1-pos, .services-grids-left-grid3-pos {
 		left: 111%;
 	}
@@ -2375,10 +2477,10 @@ p.fugiat{
 	.footer-grid:nth-child(2) {
 		margin: 2em 0;
 	}
-	.footer-grid h3 {
+	.footer-grid h2,.footer-grid h3 {
 		font-size: 1.3em;
 	}
-	.footer-grid h3:after {
+	.footer-grid h2:after,.footer-grid h3:after {
 		width: 10%;
 	}
 	.footer-grids1-left,.footer-grids1-right{
@@ -2478,6 +2580,11 @@ p.fugiat{
 		padding: 3.5em 0 0;
 		width: 100vw;
 	}
+	.banner6 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
 	.banner-info h3 {
 		font-size: 1.4em;
 		width: 100vw;
@@ -2538,6 +2645,12 @@ p.fugiat{
 		padding: 3.5em 0 0;
 		width: 100vw;
 	}
+	.banner6 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.services h2, .testimonials h2, .about h2, .team h2, .pricing-plans h2, .gallery h2, .mail h2,
 	.services h3, .testimonials h3, .about h3, .team h3, .pricing-plans h3, h3.title, .gallery h3, .mail h3 {
 		font-size: 1.7em;
 	}
@@ -2601,7 +2714,7 @@ p.fugiat{
 	.about-grids {
 		margin: 1.5em 0 0;
 	}
-	.about-grids-left h4 {
+	.about-grids-left h3,.about-grids-left h4 {
 		font-size: 1em;
 	}
 	.pa_italic i, .collapsed span {
@@ -2723,13 +2836,21 @@ p.fugiat{
 		padding: 3.5em 0 0;
 		width: 100vw;
 	}
+	.banner6 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.services h2, .testimonials h2, .about h2, .team h2, .pricing-plans h2, .gallery h2, .mail h2,
 	.services h3, .testimonials h3, .about h3, .team h3, .pricing-plans h3, h3.title, .gallery h3, .mail h3 {
 		font-size: 1.5em;
 	}
+	.services h2:after, .testimonials h2:after, .about h2:after, .gallery h2:after, .mail h2:after, .team h2:after, .pricing-plans h2:after,
 	.services h3:after, .testimonials h3:after, .about h3:after, .gallery h3:after, .mail h3:after, .team h3:after, .pricing-plans h3:after, h3.title:after {
 		width: 60%;
 		left: 20%;
 	}
+	.services h2:before, .testimonials h2:before, .about h2:before, .gallery h2:before, .mail h2:before, .team h2:before, .pricing-plans h2:before,
 	.services h3:before, .testimonials h3:before, .about h3:before, .gallery h3:before, .mail h3:before, .team h3:before, .pricing-plans h3:before, h3.title:before {
 		width: 36%;
 		right: 33%;
@@ -2843,6 +2964,11 @@ p.fugiat{
 		padding: 3.5em 0 0;
 		width: 100vw;
 	}
+	.banner6 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
 	.nav-tabs {
 		width: 100%;
 	}
@@ -2910,6 +3036,11 @@ p.fugiat{
 		width: 100vw;
 	}
 	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner6 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 		width: 100vw;
@@ -3024,6 +3155,11 @@ p.fugiat{
 		width: 100vw;
 	}
 	.banner5 {
+		min-height: 150px;
+		padding: 3.5em 0 0;
+		width: 100vw;
+	}
+	.banner6 {
 		min-height: 150px;
 		padding: 3.5em 0 0;
 		width: 100vw;
