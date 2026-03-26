@@ -1029,7 +1029,7 @@ ul.footer-grid-list li span{
 /*-- //banner --*/
 /*-- banner --*/
 .banner6{
-	/* TODO: replace background-color with a background-image url when a photo is available */
+	background: url(../images/collaboration/banner_image.jpg) no-repeat center center;
 	background-color: #2e4a35;
     background-size: cover;
     -webkit-background-size: cover;
