@@ -124,7 +124,8 @@ body a:hover{
 
 .menu__link:hover,
 .menu__link:focus {
-	outline: none;
+	outline: 2px solid #6BC676;
+	outline-offset: 2px;
 }
 
 /* Francisco */
@@ -791,7 +792,8 @@ input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts
     transition: 0.5s ease-in;
 }
 .footer-grid input[type="email"]{
-	outline:none;
+	outline: 2px solid #6BC676;
+	outline-offset: 2px;
 	border:1px solid #939393;
 	background:#000;
 	font-size:16px;
@@ -801,7 +803,8 @@ input[type="submit"],.related-post-right h4 a,.categories ul li a,.popular-posts
 	margin-bottom:1em;
 }
 .footer-grid input[type="submit"]{
-	outline:none;
+	outline: 2px solid #6BC676;
+	outline-offset: 2px;
 	border:none;
 	background:#6BC676;
 	font-size:1em;
