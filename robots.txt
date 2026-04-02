@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zdzbinden.github.io/sitemap.xml
+Sitemap: https://zdzbinden.github.io/FISHFINDER/sitemap.xml
